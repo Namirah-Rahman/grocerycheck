@@ -1,0 +1,55 @@
+{
+  "short_name": "Grocery Check",
+  "name": "Grocery Check Add your shopping list, we'll handle the rest",
+  "description": "Grocery Shopping Simplified",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+			"purpose":"maskable"
+    },
+		{
+      "src": "/images/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512 ",
+			"purpose":"any"
+    },
+		{
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+			"purpose":"any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0000ff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0000ff",
+	"lang": "en-us",
+	"orientation":"any",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Main Page",
+      "url": "/",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pick Items",
+      "short_name": "Pick Items",
+      "description": "Pick items",
+      "url": "/itempick",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pick from a list",
+      "short_name": "Pick From A list",
+      "description": "Pick from a list",
+      "url": "/listpick",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
